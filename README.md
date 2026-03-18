@@ -21,6 +21,7 @@ docker run -d --name auth_service --network mynet  -p 5001:5001 authimage
 docker run -d --name book_service -p 5002:5002 --network mynet bookimage 
 
 docker run -d --name borrow_service  -p 5003:5003 --network mynet borrowimage 
+
 docker run -d --name frontend  -p 5000:5000 --network mynet  appimage  
 
  
