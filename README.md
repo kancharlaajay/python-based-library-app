@@ -1,9 +1,13 @@
 Clone the repo 
 
 docker build -t dbimage database/ 
+
 docker build -t authimage auth/ 
+
 docker build -t bookimage book/
+
 docker build -t borrowimage borrow/ 
+
 docker build -t appimage frontend/
 
 
