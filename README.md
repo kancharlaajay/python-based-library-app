@@ -10,7 +10,8 @@ docker build -t bookimage book/
 
 docker build -t borrowimage borrow/ 
 
-docker build -t appimage frontend/
+docker build -t appimage .
+
 
 ****************************************************
 
